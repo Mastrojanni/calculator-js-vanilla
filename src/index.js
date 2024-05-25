@@ -1,7 +1,7 @@
 "use strict"
 
 const main = () => {
-	alert("JS alive!");
+	// alert("JS alive!");
 };
 
 main();
