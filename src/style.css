@@ -125,8 +125,6 @@ body {
 }
 .calculator__action-buttons > button:hover {
 	background: #fafafa;
-	border: 0;
-	scale: 1.2;
 }
 
 button.calculator__action-button--operator {
@@ -135,6 +133,8 @@ button.calculator__action-button--operator {
 }
 button.calculator__action-button--operator:hover {
 	background: #e0e4e6;
+	scale: 1.2;
+	border: 0;
 }
 
 button.calculator__action-button--operator--result {
@@ -143,6 +143,8 @@ button.calculator__action-button--operator--result {
 }
 button.calculator__action-button--operator--result:hover {
 	background: #ff6567;
+	scale: 1.2;
+	border: 0;
 }
 
 /* remove extra button's borders according to layout */
