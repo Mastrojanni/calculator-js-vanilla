@@ -119,10 +119,13 @@ body {
 .calculator__action-buttons > button {
 	background: #ffffff;
 	color: #4f6e73;
-	border: 1px solid #ebebeb;
+	border: 0;
+	border-top: 1px solid #ebebeb;
+	border-left: 1px solid #ebebeb;
 }
 .calculator__action-buttons > button:hover {
 	background: #fafafa;
+	border: 0;
 	scale: 1.2;
 }
 
@@ -140,4 +143,12 @@ button.calculator__action-button--operator--result {
 }
 button.calculator__action-button--operator--result:hover {
 	background: #ff6567;
+}
+
+/* remove extra button's borders according to layout */
+.calculator__action-buttons > button:nth-child(4n+1) {
+	border-left: 0;
+}
+.calculator__action-buttons > button:nth-child(-n+4) {
+	border-top: 0;
 }
