@@ -1,0 +1,64 @@
+/*  Table of Content (Index)
+        1. Global
+		2. Typography
+        3. RootContainer
+*/
+
+/*  =======================
+    1. Global
+    ======================= */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+
+	background: #e7ebee;
+	color: black;
+
+	font-size: 16px;
+	text-align: left;
+}
+
+/*  =======================
+    2. Typography
+    ======================= */
+h1, h2, h3, h4, h5, h6, p, a, button {
+    margin: 0;
+    padding: 0;
+}
+
+p, a, button {
+    font-size: 1rem;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font: inherit;
+}
+
+button {
+    display: inline-block;
+
+    padding: 0.63em 1.563em;
+
+    border: 1.5px solid black;
+    background: white;
+
+    font: inherit;
+    text-align: center;
+}
+
+input, textarea, select {
+    font: inherit;
+}
+
+/*  =======================
+    3. RootContainer
+    ======================= */
+body {
+	width: 100%;
+}
