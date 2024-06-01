@@ -123,24 +123,23 @@ body {
 .action-buttons-area > button:hover {
 	background: #fafafa;
 	scale: 1.2;
+	border: 0;
 }
 
-button.operation {
+.action-buttons-area button[data-ctaType="operation"] {
 	background: #e5e9ec;
 	border-color: #ffffff;
 }
-button.operation:hover {
+.action-buttons-area button[data-ctaType="operation"]:hover {
 	background: #e0e4e6;
 }
 
-button.calculate-result {
+.action-buttons-area button[data-ctaType="calculate-result"] {
 	background: #ff7072;
 	color: #faffff;
 }
-button.calculate-result:hover {
+.action-buttons-area button[data-ctaType="calculate-result"]:hover {
 	background: #ff6567;
-	scale: 1.2;
-	border: 0;
 }
 
 /* remove extra button's borders according to layout */
