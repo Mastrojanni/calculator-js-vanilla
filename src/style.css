@@ -125,19 +125,19 @@ body {
 	scale: 1.2;
 }
 
-.operation {
+button.operation {
 	background: #e5e9ec;
 	border-color: #ffffff;
 }
-.operation:hover {
+button.operation:hover {
 	background: #e0e4e6;
 }
 
-.calculate-result {
+button.calculate-result {
 	background: #ff7072;
 	color: #faffff;
 }
-.calculate-result:hover {
+button.calculate-result:hover {
 	background: #ff6567;
 	scale: 1.2;
 	border: 0;
