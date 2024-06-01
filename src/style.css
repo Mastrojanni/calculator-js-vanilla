@@ -86,27 +86,24 @@ body {
 }
 
 /* result output area */
-.calculator__output {
+.output-area {
 	padding: 0 1.8rem 1.8rem;
 
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: column;
 }
-
-.calculator__output > div {
+.output-area > div {
 	display: flex;
 	align-self: flex-end;
 }
-
 /* TODO mark with an id (last result field) */
-.calculator__output > div:last-child {
+.output-area > div:last-child {
 	font-size: 1.4em;
 	font-weight: bold;
 }
 
-/* buttons area */
-.calculator__action-buttons {	
+.action-buttons-area {	
 	background: #ffffff;
 
 	display: grid;
@@ -116,41 +113,40 @@ body {
 	font-size: 1.2rem;
 }
 
-.calculator__action-buttons > button {
+.action-buttons-area > button {
 	background: #ffffff;
 	color: #4f6e73;
 	border: 0;
 	border-top: 1px solid #ebebeb;
 	border-left: 1px solid #ebebeb;
 }
-.calculator__action-buttons > button:hover {
+.action-buttons-area > button:hover {
 	background: #fafafa;
+	scale: 1.2;
 }
 
-button.calculator__action-button--operator {
+.operation {
 	background: #e5e9ec;
 	border-color: #ffffff;
 }
-button.calculator__action-button--operator:hover {
+.operation:hover {
 	background: #e0e4e6;
-	scale: 1.2;
-	border: 0;
 }
 
-button.calculator__action-button--operator--result {
+.calculate-result {
 	background: #ff7072;
 	color: #faffff;
 }
-button.calculator__action-button--operator--result:hover {
+.calculate-result:hover {
 	background: #ff6567;
 	scale: 1.2;
 	border: 0;
 }
 
 /* remove extra button's borders according to layout */
-.calculator__action-buttons > button:nth-child(4n+1) {
+.action-buttons-area > button:nth-child(4n+1) {
 	border-left: 0;
 }
-.calculator__action-buttons > button:nth-child(-n+4) {
+.action-buttons-area > button:nth-child(-n+4) {
 	border-top: 0;
 }
