@@ -10,7 +10,7 @@ const main = () => {
 	const actionButtons = [...actionButtonsAreaElement.children];
 
 	const numberButtons = actionButtons.filter(button => (
-		button.dataset[DATA_CTA_NUMBER_KEY] == DATA_CTA_NUMBER_VALU
+		button.dataset[DATA_CTA_NUMBER_KEY] == DATA_CTA_NUMBER_VALUE
 	));
 };
 
